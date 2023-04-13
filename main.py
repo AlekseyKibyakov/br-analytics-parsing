@@ -3,7 +3,11 @@ import requests
 import time
 from config import API_TOKEN
 from datetime import datetime as dt
+from models import Project, Source
+import db_interaction as db
 # from pprint import pprint
+
+URL = r'https://stat-api.br-analytics.ru/v1/statistic/'
 
 
 class API:
@@ -23,20 +27,36 @@ if __name__ == '__main__':
         date_from = dt.strptime(r'2023-04-07 00:00:00', r'%Y-%m-%d %H:%M:%S')
         date_to = dt.now()
 
-        api = API(r'https://stat-api.br-analytics.ru/v1/statistic/erstat/')
+        api = API(url=URL + '/tophubs/')
         
         params = {
             'themeId': '12543742',
             'token': API_TOKEN,
             'timeFrom': int(date_from.timestamp()),
             'timeTo': int(date_to.timestamp()),
-            # 'params[size]': 5,
+            'params[size]': 100,
         }
         
         data = api.get(params=params)
+        project = Project(
+            theme_id='12543742',
+            name='Peptid PRO',
+        )
+        db.add_to_db(project)
+        
+        for s in data[0]['data']['top_hubs']:
+            source = Source(
+                name=s['name'],
+                num_of_msgs=s['msgs'],
+                percent=s['percent'],
+                project_id=project.id
+            )
+            db.add_to_db(source)
+        
+        db.close_session()
         pprint(data)
         
-        time.sleep(21600)
+        time.sleep(1800)
     
         
     
