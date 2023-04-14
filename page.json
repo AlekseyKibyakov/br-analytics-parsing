@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+	
+
+<html lang="ru" class="RU">
+	
+
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description"
+	      content="Brand Analytics - система мониторинга и анализа информационного поля бренда в социальных медиа и онлайн-СМИ в режиме реального времени."/>
+	<meta name="keywords"
+	      content="система мониторинга социальных медиа, система мониторинга соцмедиа, система мониторинга СМИ, системы мониторинга бренда, мониторинг социальных медиа, мониторинг соцмедиа, мониторинг бренда, мониторинг социальных сетей, мониторинг соцсетей, мониторинг упоминаний в соцмедиа, мониторинг упоминаний в соцсетях, мониторинг информационного поля, мониторинг блогосферы, мониторинг блогов, мониторинг СМИ, мониторинг упоминаний в интернете, social media monitoring, social media analytics"/>
+	<meta name="yandex" content="all"/>
+	<meta name="robots" content="index, follow"/>
+	<meta name="yandex-verification" content="6f0cf409ad57b489"/>
+
+	<title>
+		    Архив отчетов	</title>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?1671098862">
+	<link rel="icon" type="image/png" sizes="32x32" id="favicon" href="/favicon.png?1671098862">
+	<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/janpdnkmfbfflbncdjhenakmpiapiipe">
+
+	<script src="/app/ba_front/js/vendor/fontloader.js"></script>
+	<script>loadFont('ba-fonts_inner', '/app/ba_front/fonts/fonts_inner.woff.css', '/app/ba_front/fonts/fonts_inner.woff2.css')</script>
+
+	<link rel="stylesheet" type="text/css" href="/app/ba_front/css/inner/css_inner.css?1680783960"/>
+	
+	<script>
+    window.locale = 'ru';
+	</script>
+	<script src="/bundles/fosjsrouting/js/router.js"></script>
+	<script src="/js/routing?callback=Router.setData"></script>
+	<script src="/app/ba_front/js/vendor/jquery-3.6.0.min.js"></script>
+	<script src="/app/ba_front/js/vendor/jquery-migrate-3.0.0.min.js"></script>
+	<script src="/app/ba_front/js/vendor/jquery/jquery-ui-1.9.2.custom.min.js"></script>
+	<script src="/app/ba_front/js/user-agent.js"></script>
+	<script src="/app/ba_front/js/polyfills.js"></script>
+	<script src="/app/ba_front/js/t.js?1681300121"></script>
+	<script src="/app/ba_front/js/vendor/custom-scroll.js?1671098862"></script>
+	<script src="/app/ba_front/js/main.js?1681209295"></script>
+
+    
+</head>
+
+<body class="default ">
+
+
+
+
+	                        
+
+<div id="alarm_upgrade_next_tariff" class="ba_alarm type_warning hidden">
+	<div class="inner_box">
+		<span class="js--content"></span>
+		<button type="link" class="onclose">
+			<span class="icon-close mod__blue"></span>
+			Закрыть		</button>
+	</div>
+</div>
+
+<header id="header">
+	
+<section id="modal_box">
+    <div id="role_navigation_popup" class="dialog-window role-modal js--top-navigation">
+
+        <h1 class="dialog_title"></h1>
+
+        <div class="role-modal__card">
+            <div class="role-modal__role">Роль: <b></b></div>
+
+                        <div class="role-modal__user-role role-modal__user-role-admin"><p>Вы&nbsp;можете создавать и&nbsp;редактировать все темы, создавать и&nbsp;редактировать пользователей и&nbsp;их&nbsp;права, подключать аккаунты соцсетей для ответов из&nbsp;системы, просматривать все темы и&nbsp;&laquo;Журнал действий&raquo; всех пользователей системы.</p></div>
+
+                        <div class="role-modal__user-role role-modal__user-role-superadmin"><p>Вы можете создавать и редактировать все темы, создавать и редактировать пользователей и их права, подключать аккаунты соцсетей для ответов из системы, просматривать все темы и &laquo;Журнал действий&raquo; всех пользователей системы.</br>Права Супер Администратора автоматически назначаются пользователю на которого зарегистрирован аккаунт.</p></div>
+
+                        <div class="role-modal__user-role role-modal__user-role-moderator">
+                <p>Модератор имеет возможность просматривать и редактировать темы, на которые у него есть права.<br/>Вы можете посмотреть список назначенных вам прав на различные виды настроек темы и обработку данных:</p>
+                <ul class="permissions_nav_list" id="permissions_nav_list">
+                    <template id="roles_nav_list_theme_permissions">
+                        <li>
+                            <p class="question icon-box_hover js--question">
+                                <span class="icon-arrow_select_down icon-text__right mod__gray toggle_elem"></span>
+                                <span class="roles_list__title"></span>
+                                <span class="roles_list__available-rights"></span>
+                            </p>
+                            <div class="answer">
+                                <ul class="roles_list__permissions">
+                                                                            <li>
+                                            <span class="icon-text__right"></span>
+                                            <span class="roles_list__option" data-value="1">Редактирование настроек темы</span>
+                                        </li>
+                                                                            <li>
+                                            <span class="icon-text__right"></span>
+                                            <span class="roles_list__option" data-value="2">Создание и редактирование автоматических тегов</span>
+                                        </li>
+                                                                            <li>
+                                            <span class="icon-text__right"></span>
+                                            <span class="roles_list__option" data-value="3">Создание и редактирование персональных фильтров и групп авторов</span>
+                                        </li>
+                                                                            <li>
+                                            <span class="icon-text__right"></span>
+                                            <span class="roles_list__option" data-value="4">Тегирование, редактирование тональности, удаление сообщений</span>
+                                        </li>
+                                                                            <li>
+                                            <span class="icon-text__right"></span>
+                                            <span class="roles_list__option" data-value="5">Создание и редактирование подписок и оповещений, использование интеграций</span>
+                                        </li>
+                                                                            <li>
+                                            <span class="icon-text__right"></span>
+                                            <span class="roles_list__option" data-value="6">Создание поручений</span>
+                                        </li>
+                                                                            <li>
+                                            <span class="icon-text__right"></span>
+                                            <span class="roles_list__option" data-value="8">Создание аспектов</span>
+                                        </li>
+                                                                    </ul>
+                            </div>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+
+                        <div class="role-modal__user-role role-modal__user-role-reader">
+                <p>Вы имеете возможность просматривать следующие темы, а также экспортировать данные из них.</p>
+                <ul class="role-modal__list">
+                </ul>
+            </div>
+        </div>
+        <div class="permissions-note">
+            <p style="display: inline;">Подробнее о&nbsp;ролях и&nbsp;правах в </p>
+            <a style="outline: none;" tabindex="-1" href="/help/md/users/rights_and_roles.html"
+               target="_blank">Руководстве пользователя Brand Analytics</a>
+        </div>
+    </div>
+</section>
+
+<div class="layout px-0">
+    <section class="logo-box">
+                <a href="/">
+            <img src="/app/ba_front/img/SVG/logo_ba.svg?1671098860" class="ba_logo" alt="Brand Analytics"/>
+        </a>
+            </section>
+
+    <nav id="main_navigation">
+        <a class="navigation-item " href="/summary/">
+            <span class="navigation-item__text">
+                Темы            </span>
+        </a>
+        <a class="navigation-item " href="/compare/">
+            <span class="navigation-item__text">
+                Сравнение тем            </span>
+        </a>
+                    <a class="navigation-item " href="/subscribe/">
+                <span class="navigation-item__text">
+                    Подписка                </span>
+            </a>
+                            <a class="navigation-item item-notifications " href="/notifications/">
+                <span class="navigation-item__text">
+                    Оповещения                </span>
+                <span class="hidden" id="counter_notifications"></span>
+            </a>
+                            <a class="navigation-item " href=/events_history/>
+                <span class="navigation-item__text">
+                    Журнал                </span>
+            </a>
+                            <a class="navigation-item " href="/account/users/">
+                <span class="navigation-item__text">
+                    Настройки                </span>
+            </a>
+                            <span class="navigation-item js-techsupport_dialog">
+                <span class="navigation-item__text">
+                    Помощь                </span>
+            </span>
+            </nav>
+            <section id="account_menu">
+            <div class="user_info" tabindex="-1">
+                                    <img class="user_avatar" src="/app/ba_front/img/SVG/user.svg?1671098860" alt="" />
+                                <span class="user_name">kibyakov98@mail.ru</span>
+                <span class="icon-arrow_select_down mod__white icon-text__right"></span>
+            </div>
+
+            <div class="dropdown_list">
+                <div class="dropdown_list_name">
+                    <h2>Алексей Кибяков</h2>
+                </div>
+                <div class="dropdown_list_role">
+                    Роль:                    <span class="js--modal-role-description local">
+                                                    Администратор                                                 </span>
+                </div>
+                <a href="/account/users/profile/" class="dropdown_list_item">
+                    <span class="icon-settings-user_menu icon-text__right"></span>Профиль                </a>
+                                <a href="/price/" class="dropdown_list_item">
+                      <span class="icon-tariff-user_menu icon-text__right"></span>Тариф: СП5
+                  </a>
+                              <a href="/account/logout" class="dropdown_list_item">
+                    <span class="icon-exit-user_menu icon-text__right"></span>Выход                </a>
+            </div>
+        </section>
+    </div>
+<script>
+	const USER_SETTINGS = {
+      login: '',
+      mail: '',
+      is_admin: 1,
+      user_name: 'kibyakov98@mail.ru',
+      account_id: '20071',
+      user_id: '87521',
+      group_id: 0,
+      report_period: 'week',
+      role: 'admin',
+      firstname: 'Алексей',
+      lastname: 'Кибяков',
+      themes: {"12543742":{"id":"12543742","sds_enabled":"1","name":"Peptid PRO","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"07.02.23","dfrom":"08.01.23","type":"1","groups_ids":[]},"12570084":{"id":"12570084","sds_enabled":"1","name":"S8 Capital","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"30.03.23","dfrom":"30.03.23","type":"1","groups_ids":[]},"12503505":{"id":"12503505","sds_enabled":"1","name":"\u0410\u0412\u0412\u0410 \u0420\u0423\u0421","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"07.11.22","dfrom":"01.11.22","type":"1","groups_ids":[]},"12497499":{"id":"12497499","sds_enabled":"1","name":"\u0410\u043b\u043a\u043e\u0439-\u0424\u0430\u0440\u043c","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"19.08.22","dfrom":"20.07.22","type":"1","groups_ids":[]},"12549194":{"id":"12549194","sds_enabled":"1","name":"\u0418\u0418","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"10.03.23","dfrom":"08.02.23","type":"2","groups_ids":[]},"12454334":{"id":"12454334","sds_enabled":"1","name":"\u041c\u041c\u0425_\u041d\u0415\u0412\u0420\u041e","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"30.07.20","dfrom":"24.07.20","type":"1","groups_ids":[]},"12476358":{"id":"12476358","sds_enabled":"1","name":"\u041c\u041c\u0425_\u041f\u0440\u043e\u0441\u043f\u0435\u043a\u0442\u0430","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"13.08.21","dfrom":"14.07.21","type":"1","groups_ids":[]},"12454178":{"id":"12454178","sds_enabled":"0","name":"\u041c\u041c\u0425_\u0420\u0415\u0421\u041f\u0418_\u043f\u043e 30.11.2020","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"29.07.20","dfrom":"23.07.20","type":"1","groups_ids":[]},"12480274":{"id":"12480274","sds_enabled":"0","name":"\u041c\u041c\u0425_\u0420\u0415\u0421\u041f\u0418_\u0441 01.11.2021","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"02.11.21","dfrom":"02.11.21","type":"1","groups_ids":[]},"12480286":{"id":"12480286","sds_enabled":"0","name":"\u041c\u041c\u0425_\u0420\u0415\u0421\u041f\u0418_\u0441 01.12.2020 \u043f\u043e 14.12.2020","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"02.11.21","dfrom":"02.11.21","type":"1","groups_ids":[]},"12505867":{"id":"12505867","sds_enabled":"1","name":"\u041c\u041c\u0425_\u0420\u0415\u0421\u041f\u0418_\u0441 05.12.2022","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"05.12.22","dfrom":"05.12.22","type":"1","groups_ids":[]},"12454331":{"id":"12454331","sds_enabled":"0","name":"\u041c\u041c\u0425_\u0420\u0415\u0421\u041f\u0418_\u0441 15.12.2020","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"30.07.20","dfrom":"24.07.20","type":"1","groups_ids":[]},"12456344":{"id":"12456344","sds_enabled":"0","name":"\u041c\u041c\u0425_\u0421\u041d\u0413 (\u041d\u0415 \u0423\u0414\u0410\u041b\u042f\u0422\u042c!)","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"08.09.20","dfrom":"02.09.20","type":"1","groups_ids":[]},"12454866":{"id":"12454866","sds_enabled":"1","name":"\u041c\u041c\u0425_\u0421\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0442\u0435\u0442","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"10.08.20","dfrom":"04.08.20","type":"1","groups_ids":[]},"12491931":{"id":"12491931","sds_enabled":"1","name":"\u041c\u0430\u0442\u0435\u0440\u0438\u0430 \u041c\u0435\u0434\u0438\u043a\u0430 \u0425\u043e\u043b\u0434\u0438\u043d\u0433","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"01.06.22","dfrom":"02.05.22","type":"1","groups_ids":[]},"12541324":{"id":"12541324","sds_enabled":"1","name":"\u041c\u0435\u0442\u0435\u043e\u0440 (ex Otis)","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"25.01.23","dfrom":"26.12.22","type":"1","groups_ids":[]},"12469815":{"id":"12469815","sds_enabled":"0","name":"\u0421\u0442\u043e\u043b\u043e\u0442\u043e","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"03.05.21","dfrom":"27.04.21","type":"1","groups_ids":[]},"12568660":{"id":"12568660","sds_enabled":"1","name":"\u0421\u0442\u043e\u043b\u043e\u0442\u043e NEW (\u0441 17 \u043c\u0430\u0440\u0442\u0430 2023)","sds_enabledbot":"0","tone_enabled":"1","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"17.03.23","dfrom":"16.03.23","type":"1","groups_ids":[]},"12469816":{"id":"12469816","sds_enabled":"1","name":"\u0421\u0442\u043e\u043b\u043e\u0442\u043e \u043c\u043e\u0448\u0435\u043d\u043d\u0438\u043a\u0438","sds_enabledbot":"0","tone_enabled":"0","search_scope":"[\"message_text\",\"message_title\",\"geo_object_title\",\"image_captions\",\"video_captions\"]","is_demo":null,"type_visible":"1","theme_status":"7","is_new":"1","dcreate":"03.05.21","dfrom":"27.04.21","type":"1","groups_ids":[]}},
+      user_permissions: '[]',
+      user_roles: '{"12491931":"admin","12497499":"admin","12503505":"admin","12505867":"admin","12541324":"admin","12543742":"admin","12549194":"admin","12568660":"admin","12570084":"admin","12454178":"admin","12454331":"admin","12454334":"admin","12454866":"admin","12456344":"admin","12469815":"admin","12469816":"admin","12476358":"admin","12480274":"admin","12480286":"admin","":"admin"}',
+      avatar: '',
+      time_zone: 'Europe/Moscow',
+      time_zone_offset: 180,
+      show_notifications_counter: '1'
+	};
+</script>
+
+</header>
+
+<main id="container" class="page_archiveReport">
+    <div class="layout mod__center">
+        <div class="layout__center">
+            <div class="layout__header">
+                <h1>
+                    Архив отчетов                </h1>
+                <span class="ml-auto">
+                    Отчеты хранятся не более 3-х месяцев                </span>
+            </div>
+            <section id="content" class="layout__content">
+				<div id="exportListTable" class="table_container">
+					<table class="custom_table align-left with_filters l_circle_loader_box fixed_table">
+						<thead>
+						<tr>
+							<th width="150">
+								<div class="btn_sorting selected" data-sortable="create_date">Создан</div>
+							</th>
+							<th>
+								<div class="btn_sorting" data-sortable="theme_name">Тема</div>
+							</th>
+							<th width="200">
+								<div class="btn_sorting" data-sortable="period">Период</div>
+							</th>
+							<th width="100">
+								<div class="btn_sorting" data-sortable="ext">Формат</div>
+							</th>
+							<th>
+								<div class="btn_sorting" data-sortable="creator_name">Создатель отчета</div>
+							</th>
+							<th class="cell_buttons">Действия</th>
+						</tr>
+						</thead>
+						<tbody>
+
+						</tbody>
+					</table>
+
+					<div class="filter_panel">
+												
+
+<div class="table_pagination">
+
+            <label for="count_string_select">Отображать строк</label>
+        <select id="count_string_select" class="count_string ms-parent-mini">
+            <option value="10" selected>10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+        </select>
+    
+    <div class="pager hidden">
+                    <label for="cur_page">К строке</label>
+            <input id="cur_page" type="text" class="current_page" value="" />
+        
+        <span class="siblings_page back_page_table">
+            <span class="icon-arrow_left mod__blue"></span>
+            Назад        </span>
+
+        <span class="list_elem">
+            <span class="start_pos">0</span>-<span class="end_pos">0</span> из <span class="total_count">0</span>
+        </span>
+
+        <span class="siblings_page next_page_table">
+            Вперед            <span class="icon-arrow_right mod__blue"></span>
+        </span>
+    </div>
+
+</div>
+					</div>
+
+				</div>
+				<div id="exportListEmpty" class="no_data hidden">Ещё не создано ни одного отчета</div>
+            </section>
+        </div>
+    </div>
+</main>
+
+
+
+<script id="exportTableRowTmpl" type="x/text-handlebars-template">
+    {{#each rows}}
+    <tr>
+        <td>
+            {{ create_date }}
+        </td>
+        <td class="cell_wrap">
+            {{#if theme_deleted }}
+                <span class="spam-label">[{{#translate}}exports_list.label.deleted{{/translate}}]</span>
+            {{/if}}
+            {{{ theme_name }}}
+        </td>
+        <td>
+            {{ period }}
+        </td>
+        <td>
+            {{#is ext_pic "not" false }}
+                <img src="{{ ext_pic }}" alt="{{ ext }}">
+            {{/is}}
+            {{#is ext "==" "excel"}}
+                Excel
+            {{ else }}
+                {{ toUpperCase ext }}
+            {{/is}}
+        </td>
+        <td class="cell_wrap">
+            {{ creator_name }}
+        </td>
+        <td class="cell_buttons">
+            {{#is status "==" 0 }}
+                Новый
+            {{else is status "==" 1 }}
+                Создается...
+            {{else is status "==" 3 }}
+            <span class="icon-block table_btn disabled_btn" data-id="{{ id }}" title="Произошла ошибка"></span>
+                {{#is ../isReaderMode "==" 0 }}
+            <span class="icon-delete mod__hover table_btn del_export" data-id="{{ id }}" title="Удалить"></span>
+                {{/is}}
+            {{else is status "==" 2 }}
+                <a class="icon-download mod__hover table_btn ml-0" href="{{ downloadLink }}" title="Скачать"></a>
+                {{#is ../isReaderMode "==" 0 }}
+                    <span class="icon-delete mod__hover table_btn del_export" data-id="{{ id }}" title="Удалить"></span>
+                {{/is}}
+            {{ else }}
+                <span>Undefined status</span>
+            {{/is}}
+        </td>
+    </tr>
+    {{/each}}
+</script>
+
+
+
+
+<footer id="footer">
+	<div class="layout">
+            <p class="footer__feedback">
+            <a href="/feedback/">Написать в техподдержку</a>
+        </p>
+    
+                <p class="footer__copyright">
+            &copy; 2012-2023 Brand Analytics
+        </p>
+    </div>
+	
+<!-- HEAD Yandex.Metrika counter -->
+<noscript><div><img src="https://mc.yandex.ru/watch/21879538" style="display:none;visibility:hidden" alt="" /></div></noscript>
+
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(21879538, "init", {
+        clickmap: false,
+        trackLinks: false,
+        accurateTrackBounce: false,
+        webvisor: false
+    });
+</script>
+
+<!-- /HEAD Yandex.Metrika counter -->
+</footer>
+
+<section id="logger">
+	<script>
+  window.addEventListener(
+      "error",
+      function(r) {
+        if(null === r || $.isEmptyObject(r) || (0 == r.lineno && 0 == r.colno) || !r.error || !r.error.stack) return !1;
+        if(-1 != ["Script error.", "Script error"].indexOf(r.message)) return !1;
+        if(-1 == r.error.stack.indexOf("/app/ba_front/js/")) return !1;
+        if(/bot|googlebot|crawler|spider|robot|crawling/i.test(window.navigator.userAgent)) return !1;
+
+        let e = getBrowserVersion();
+        if(!Array.prototype.find && -1 == e.indexOf("IE")) return !1;
+        let n = r.error.stack.split("\n").filter((r) => !r.includes("jquery")),
+            o = {
+              'message': r.error.message,
+	            'stack': n[1].trim(),
+	            'stackInit': n[n.length - 1].trim(),
+	            'url': window.location.href,
+	            'browser': e,
+	            'user': r.currentTarget.ACCOUNT.email,
+	            'appVersion': r.currentTarget.localStorage.app_version
+            },
+            t = new XMLHttpRequest();
+        return t.open("POST", "/logger/jserror/", !0), t.send(JSON.stringify(o, null, "\t")), !1;
+      },
+      !1
+  );
+</script></section>
+
+<section id="modal_box">
+	    <div id="del_export_message">
+        <h1 class="dialog_title">В скором времени отчет будет удален</h1>
+        <button class="custom_btn btn_blue" onclick="$('#del_export_message').dialog('close');">ОК</button>
+    </div>
+    <div id="del_export_error">
+        <h1 class="dialog_title">Ошибка удаления экспорта</h1>
+        <button class="custom_btn btn_blue" onclick="$('#del_export_error').dialog('close');">ОК</button>
+    </div>
+    <div id="del_export" class="dialog-window">
+        <h1 class="dialog_title">Отчет будет удален. Продолжить?</h1>
+        <div class="btn_box">
+            <button class="custom_btn btn_blue confirm_del_export">OK</button>
+            <button class="custom_btn btn_cloud" onclick="jQuery('#del_export').dialog('close');">Отмена</button>
+        </div>
+    </div>
+
+	<div id="techsupport_dialog" class="techsupport_dialog dialog-window">
+		<h1 class="dialog_title">Помощь</h1>
+		<p>Эксперты Brand Analytics рады помочь в решении ваших задач. Выберите удобный способ получить ответ на ваш вопрос:</p>
+		<ul class="list_tech reset">
+			<li class="mail">
+				<a href="/feedback/">Электронная почта</a><br/>
+				Отправьте письмо с вопросом через веб-форму, и мы ответим вам <span class="nowrap">в течение</span> одного рабочего дня.			</li>
+			<li class="phone">
+				Звонок<br/>
+				Связаться со службой поддержки можно по телефону +7 (495) 105-95-01 с 9:30 до 18:30 MSK с понедельника по пятницу.			</li>
+			<li class="document">
+				<a href="/help/">Руководство пользователя Brand Analytics</a><br/>
+				Воспользуйтесь рубрикатором по функционалу системы, чтобы быстро найти ответы на интересующие вопросы.			</li>
+			<li class="source">
+				<a href="/feedback/#source">Запрос на добавление источника</a><br/>
+				Вы можете сделать запрос на индексацию источника, если его нет <span class="nowrap">в нашей</span> базе.			</li>
+			<li class="feedback">
+				<a href="/feedback/#techsupport">Сообщить об ошибке</a><br/>
+				Информация об ошибках обрабатывается режиме 24/7			</li>
+		</ul>
+	</div>
+</section>
+
+<script>
+  var ACCOUNT = {
+    userId: 87521,
+    accountId: 20071,
+    firstname: 'Алексей',
+    lastname: 'Кибяков',
+    name: 'Алексей Кибяков',
+    email: 'kibyakov98@mail.ru',
+  };
+
+	
+
+  if(localStorage['UData']) {
+    window.UData = JSON.parse(localStorage['UData']);
+  } else {
+    window.UData = {
+      processing: {},
+      timestampFrom: 0,
+      timestampTo: 0,
+      timeZone: '3'
+    };
+  }
+
+	  jQuery.baseUrl = '/ajax/';
+</script>
+
+
+					<script>
+	    window.__widgetInitCallback = function () {
+	      window.usedeskMessenger.identify({
+	        email: ACCOUNT.email,
+	        name: ACCOUNT.name,
+	        token: 'CkTByBsDxB1CubChuD3DtCyBUDfBVYqCoBNC_C2DCBQDLtxBGCrKyBUDHCRBtWBA'
+	      });
+	    }
+		</script>
+	
+		<script async src="https://lib.usedesk.ru/secure.usedesk.ru/widget_154010_6570.js"></script>
+	
+<script src="/app/ba_front/js/vendor/cookie.js"></script>
+<script src="/app/ba_front/js/vendor/URI.min.js"></script>
+<script src="/app/ba_front/js/vendor/jquery/jquery-ui-locale.js"></script>
+
+<script src="/app/ba_front/js/vendor/moment/moment.min.js"></script>
+<script src="/app/ba_front/js/vendor/moment/moment-timezone.js"></script>
+	<script src="/app/ba_front/js/vendor/moment/ru.js"></script>
+<script>
+  BA_DATA.setGlobalConfig();
+</script>
+
+<script src="/app/ba_front/js/vendor/jquery.form.min.js"></script>
+<script src="/app/ba_front/js/vendor/handlebars-v4.0.11.js"></script>
+<script src="/app/ba_front/js/vendor/multiple-select/jquery.multiple.select.js?v_20210916"></script>
+<script src="/app/ba_front/js/vendor/highcharts/highcharts-all.js?1671098862"></script>
+
+<script src="/app/ba_front/js/datepicker.init.js?1671098862"></script>
+	<script>
+		$(document).ready(() => initDatepicker());
+	</script>
+<script src="/app/ba_front/js/vendor/handlebars.helper.js?1672236457"></script>
+
+<script>
+    var dataPage = {
+        export_table: {
+            rows: []
+        },
+        isReaderMode: 0,
+        storageRequest: []
+    };
+</script>
+
+<script src="/app/ba_front/js/custom_table.js?1671098862"></script>
+<script src="/app/ba_front/js/pages/exportList.js?1671098862"></script>
+
+<input type="hidden" id="ba-site"/>
+</body>
+</html>
+
+
